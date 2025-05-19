@@ -1,4 +1,4 @@
-# FFmpeg Video Automation Cheat Sheet
+# FFmpeg Cheatsheet for Video Automation
 
 A categorized collection of FFmpeg commands for video automation pipelines.
 
