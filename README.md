@@ -683,7 +683,7 @@ libx265 - H265 (HEVC), the newer codec, is very similar in behavior and controls
 ffmpeg -i https://storage.rendi.dev/sample/big_buck_bunny_720p_16sec.mp4 -c:v libx265 -vtag hvc1 -c:a copy output_265.mp4
 ```
 
-[format=yuv420p](https://trac.ffmpeg.org/wiki/Encode/H.264#Encodingfordumbplayers) H264 YUV planar color format, is used for playback compatibility in most players. Use this flag when transforming images to video, unless you have specific reasons not to.
+[format=yuv420p](https://trac.ffmpeg.org/wiki/Encode/H.264#Encodingfordumbplayers) H264 YUV planar color format, is used for playback compatibility in most players. Use this flag when transforming images to video and in general when you have playback issues with your output videos, unless you have specific reasons not to.
 
 > You may need to use -vf format=yuv420p (or the alias -pix_fmt yuv420p) for your output to work in QuickTime and most other players. These players only support the YUV planar color space with 4:2:0 chroma subsampling for H.264 video. Otherwise, depending on your source, ffmpeg may output to a pixel format that may be incompatible with these players.
 
