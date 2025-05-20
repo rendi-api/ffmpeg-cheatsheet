@@ -883,6 +883,7 @@ ffprobe -show_streams -i https://storage.rendi.dev/sample/big_buck_bunny_720p_16
 - ASS subtitle format
 - Explain more about creating web-optimized media
 - Discuss online video streaming with FFmpeg
+- Silence removal with FFmpeg
 - Batch processing with FFmpeg
 
 ## Closing Remarks
