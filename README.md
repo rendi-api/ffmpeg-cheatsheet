@@ -533,7 +533,7 @@ The only thing that worked is to specify the trim duration after the zoompan.
 ffmpeg -i https://storage.rendi.dev/sample/big_buck_bunny_720p_16sec.mp4 -vf "select='gt(trunc(t/2),trunc(prev_t/2))',setpts='PTS*0.1',scale=trunc(oh*a/2)*2:320:force_original_aspect_ratio=decrease,pad=trunc(oh*a/2)*2:320:-1:-1" -loop 0 -an output.gif
 ```
 
-Create a looping gif from video auto-scaled to 320px width, taking every 2nd frame (`lte(n\,1)+gt(trunc(t/2),trunc(prev_t/2))`) and accelerating the playing speed by 10 (`setpts='PTS*0.1'`)
+Create a looping gif from video auto-scaled to 320px width, taking every 2nd frame `gt(trunc(t/2),trunc(prev_t/2))` and accelerating the playing speed by 10 `setpts='PTS*0.1'`
 
 `-loop 0` is the default, and can actually be omitted, stating that the loop is indefinite. To only loops once use `-loop 1`
 
