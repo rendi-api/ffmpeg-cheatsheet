@@ -1,3 +1,5 @@
+[![MSeeP.ai Security Assessment Badge](https://mseep.net/pr/rendi-api-ffmpeg-cheatsheet-badge.png)](https://mseep.ai/app/rendi-api-ffmpeg-cheatsheet)
+
 # FFmpeg Cheatsheet for Video Automation
 
 A categorized collection of FFmpeg commands for video automation pipelines.
