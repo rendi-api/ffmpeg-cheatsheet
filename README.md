@@ -4,8 +4,6 @@ A categorized collection of FFmpeg commands for video automation pipelines.
 
 Use this as inspiration for your own work, to troubleshoot your FFmpeg commands, or to explore what others are building in automated media apps.
 
-You can use the FFmpeg commands below within [Rendi - FFmpeg API](https://rendi.dev?utm_source=cheatsheet)
-
 ## How to use this cheatsheet?
 
 - Use the table of contents, best viewed in github's full view of the MD file, to browse through the main topics covered.
@@ -23,6 +21,8 @@ You can use the FFmpeg commands below within [Rendi - FFmpeg API](https://rendi.
   - You can also just refer the LLM to the URL of this file and have it index it.
   - If you're interested in a specific command - copy it into the LLM and chat with the LLM to alter this command according to your specific needs
   - You should find all the explanations you require for all the commands within this document and the references it provides. Still, you can always copy a command into the chat interface and have the LLM elaborate.
+
+- You can use the FFmpeg commands below within [Rendi - FFmpeg API](https://rendi.dev?utm_source=cheatsheet)
 
 As [someone on reddit said](https://www.reddit.com/r/ffmpeg/comments/1kdvimj/comment/mqf5dcz):
 
