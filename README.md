@@ -22,8 +22,6 @@ Use this as inspiration for your own work, to troubleshoot your FFmpeg commands,
   - If you're interested in a specific command - copy it into the LLM and chat with the LLM to alter this command according to your specific needs
   - You should find all the explanations you require for all the commands within this document and the references it provides. Still, you can always copy a command into the chat interface and have the LLM elaborate.
 
-- You can use the FFmpeg commands below within [Rendi - FFmpeg API](https://rendi.dev?utm_source=cheatsheet)
-
 As [someone on reddit said](https://www.reddit.com/r/ffmpeg/comments/1kdvimj/comment/mqf5dcz):
 
 > "I know it burns a tree every time you ask gpt a question, but it beats slogging through 10 year old answers on stackexchange"
